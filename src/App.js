@@ -1,21 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Body from './components/Body';
+import FuelHeader from './component/FuelHeader';
+import FuelSettings from './container/FuelSettings';
 
 
-class App extends Component {
-  render(){
-    
+function App(){
     return (
       <div>
-       <Header/>
-       <Body/>
+       <FuelHeader/>
+       <FuelSettings/>
       </div>
-    );
-
-
-  }
-}
+    )
+};
 
 export default App;

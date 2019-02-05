@@ -3,13 +3,33 @@
 }
 
 
-
 #h2cont {
   display:flex;
   align-items: center;
   justify-content: center;
   flex-direction:column;
-  
+  background-color:#e8e8e8;
+}
+
+#headerCont {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+#headerCont h2 {
+  font-family:impact;
+  font-size:36px;
+  color: '#000';
+}
+
+#headerCont img {
+  margin-right: -20px;
+}
+
+#fuelEconomyId {
+  margin-top:2%;
 }
 
 
@@ -25,12 +45,8 @@ label label {
 h4 span  {
   color:red;
   font-size:24px;
- /* text-decoration:underline;*/
 }
 
-.classHide {
-  visibility:hidden;
-}
 
 
 .resultDiv {
